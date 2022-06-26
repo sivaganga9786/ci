@@ -15,7 +15,7 @@ pipeline{
                    nexusArtifactUploader artifacts: [
                     [artifactId: 'myweb', 
                     classifier: '', 
-                    file: 'target/myweb-0.0.4.war', 
+                    file: 'target/myweb.war', 
                     type: 'war'
                     ]
                     ],
