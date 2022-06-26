@@ -10,8 +10,6 @@ pipeline{
                    sh 'mv target/myweb*.war target/myweb.war'
                 }
             }
-               publishers { 
-                 archiveArtifacts '**/*.war'
-   }  
+               
     }
 }
