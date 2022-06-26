@@ -9,6 +9,8 @@ pipeline{
                    sh 'mvn clean package'
                 }
             }
-    
+               publishers { 
+                 archiveArtifacts '**/*.war'
+   }  
     }
 }
